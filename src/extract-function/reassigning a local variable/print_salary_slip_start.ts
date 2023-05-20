@@ -26,7 +26,7 @@ export function printSalarySlip(employee: Employee) {
   // calculate salary
   salary = employee.annualGrossSalary / 12
   if (employee.annualGrossSalary > 8060) {
-    salary = salary - 0.12 * (employee.annualGrossSalary - 8060) / 12
+    salary = salary - (0.12 * (employee.annualGrossSalary - 8060)) / 12
   }
 
   recordLastPaymentDate(employee)
