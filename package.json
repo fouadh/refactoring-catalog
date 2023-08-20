@@ -11,5 +11,9 @@
     "compile": "tsc",
     "test": "jest --watchAll",
     "prettify": "prettier --write ."
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.197",
+    "lodash": "^4.17.21"
   }
 }
