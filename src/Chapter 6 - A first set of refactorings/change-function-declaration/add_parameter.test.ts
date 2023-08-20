@@ -1,4 +1,4 @@
-import { TaskScheduler, Priority } from './add_parameter'
+import { Priority, TaskScheduler } from './add_parameter'
 
 describe('Task scheduler', () => {
   it('schedule tasks', () => {

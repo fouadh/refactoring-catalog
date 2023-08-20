@@ -4,7 +4,7 @@ export type Task = {
 
 export enum Priority {
   Low,
-  High,
+  High
 }
 
 export class TaskScheduler {
