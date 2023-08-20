@@ -5,7 +5,7 @@ type Settings = {
 
 let settings: Settings = {
   language: 'fr',
-  timezone: 'Europe/Paris'
+  timezone: 'Europe/Paris',
 }
 
 export function getDefaultSettings() {
